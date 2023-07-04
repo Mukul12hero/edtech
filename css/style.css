@@ -2,14 +2,23 @@
     bottom: 6rem;
 }
 
-.overlay{
-    position: fixed;
-    width: 100%;
-    height: 100%;
+.carousel{
+    position: relative;
+    z-index: -1;
+
+}
+
+.new{
+    z-index: 999;
+}
+
+.carousel::after{
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 166, 0, 0.9);
-    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.9);
+    content: "";
+    z-index: ;
 }
