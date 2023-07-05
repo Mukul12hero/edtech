@@ -1,24 +1,39 @@
-.carousel-caption{
-    bottom: 6rem;
+.mukul{
+    margin-bottom: 300px;
 }
 
-.carousel{
-    position: relative;
-    z-index: -1;
 
-}
 
 .new{
-    z-index: 999;
+    bottom: 6rem;
+    z-index: 9999;
 }
 
-.carousel::after{
+.new_2{
+    position: relative;
+    z-index: -1;
+}
+
+.new_2::after{
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     content: "";
-    z-index: ;
 }
+
+/* course part start */
+
+.my-card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body p{
+    margin-bottom: 10px;
+}
+
+/* course part end */
