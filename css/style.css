@@ -1,20 +1,26 @@
-.mukul{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mukul {
     margin-bottom: 300px;
 }
 
 
 
-.new{
+.new {
     bottom: 6rem;
     z-index: 9999;
 }
 
-.new_2{
+.new_2 {
     position: relative;
     z-index: -1;
 }
 
-.new_2::after{
+.new_2::after {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -26,13 +32,13 @@
 
 /* course part start */
 
-.my-card-img{
+.my-card-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.card-body p{
+.card-body p {
     margin-bottom: 10px;
 }
 
