@@ -2,13 +2,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    padding-top: 114px;
 }
 
 .mukul {
-    margin-bottom: 300px;
+    margin-top: 300px;
 }
 
-
+/* navbar part start */
 
 .new {
     bottom: 6rem;
@@ -29,6 +30,8 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     content: "";
 }
+
+/* navbar part end */
 
 /* course part start */
 
