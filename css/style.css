@@ -16,6 +16,10 @@ body {
     z-index: 9999;
 }
 
+.new p {
+    font-size: 15px;
+}
+
 .new_2 {
     position: relative;
     z-index: -1;
